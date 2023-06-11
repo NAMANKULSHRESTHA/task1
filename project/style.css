@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+img{
+    align-items: center;
+}
+h3{
+    color: chartreuse;
+}
+#bottom{
+    text-align: left;
+    color: crimson;
+}
