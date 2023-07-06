@@ -1,0 +1,66 @@
+body{
+    background:red;
+    background-size: cover;
+    }
+.naman{
+    background: black;
+    color: cornsilk;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+.nk{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+@media screen and (min-width:576px)
+{
+    body{
+        background:green;
+        text-align:left;
+        text-decoration: dashed;
+    }
+}
+.img{
+    background:white;
+    width:300px;
+    height: 70px;
+    margin-left: 600px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 3px 5px blue;
+    transition: all 2s 3s;
+}
+.img:hover{
+    -webkit-box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+-moz-box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+}
+.s{
+    color:darkblue;
+    font-size: 24px;
+    font-family:  Geneva, Verdana, sans-serif;
+}
+#li{
+
+    width:200px;
+    height: 30px;
+    margin: 30px;
+    background:black;
+    -webkit-box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+-moz-box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+}
+.f{
+    margin: 0 auto;
+    font-size: 3rem;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    background: white;
+}
+
