@@ -1,0 +1,62 @@
+body{
+    background-image:url('./image2.jpg');
+    }
+h1{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+img{
+    align-items: center;
+}
+h3{
+    color: chartreuse;
+}
+#bottom{
+    text-align: left;
+    color: crimson;
+}
+p{
+    text-align: center;
+}
+h3{
+    background:white;
+    width:300px;
+    height: 70px;
+    margin-left: 600px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-shadow: 2px 3px 5px blue;
+    transition: all 2s 1s;
+}
+h3:hover{
+    -webkit-box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+-moz-box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+box-shadow: 20px 10px 5px 0px rgba(207,37,207,1);
+}
+@media screen and (max-width:576px)
+{
+    body{
+        background-image: url("./pexels-hakeem-james-hausley-4516067.jpg");
+        text-align:left;
+        text-decoration: dashed;
+    }
+}
+#nk{
+    background: red;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
